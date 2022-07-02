@@ -61,7 +61,12 @@ $navbar-light-active-color: $primary;
 //menu-icon animation
 
 
+#home{
+  overflow-y: hidden !important;
 
+}
+
+// header scroll animation
 #header{
   position: fixed;
   top: 0;
@@ -70,10 +75,6 @@ $navbar-light-active-color: $primary;
   transition: 0.5s;
 }
 
-#home{
-  overflow-y: hidden !important;
-
-}
 
 .scroll-down{
   transform: translate3d(0, -100% ,0) !important;
@@ -108,3 +109,4 @@ $navbar-light-active-color: $primary;
 
 }
 
+// header scroll animation
